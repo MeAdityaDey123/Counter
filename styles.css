@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    font-size: 3.125rem;
+}
+
+.number {
+    font-size: 3rem;
+    margin: 3.125rem 0;
+}
+
+.increase, .decrease {
+    padding: 0.625rem 1.875rem;
+    font-size: 1.25rem;
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
+
+.increase:hover, .decrease:hover {
+    cursor: pointer;
+    background-color: #1a1a1a;
+}
+
+.decrease {
+    margin-left: 1.875rem;
+}
